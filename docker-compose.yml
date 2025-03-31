@@ -1,0 +1,70 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"   # Mapeia a porta 3000 do container para a 3000 do host
+    volumes:
+      - .:/app
+    networks:
+      - mysql-compose-network
+
+  mysqlsrv:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: "MySql2019!"
+      MYSQL_DATABASE: "testedb"
+    ports:
+      - "3306:3306"
+    volumes:
+      - /home/renatogroffe/Desenvolvimento/Docker/Volumes/MySql:/var/lib/mysql
+    networks:
+      - mysql-compose-network
+
+  adminer:
+    image: adminer
+    ports:
+      - "8081:8080"
+    networks:
+      - mysql-compose-network
+
+  pergunta:
+    build: ../interact/dntPerguntas-master/
+    ports:
+      - "81:5000"
+    volumes:
+      - ../interact/dntPerguntas-master/:/app
+    networks:
+      - mysql-compose-network
+
+  web:
+    image: nginx:latest
+    ports:
+      - "80:80"    # Mapeia a porta 80 do container para a 80 do host
+      - "443:443"  # Mapeia a porta 443 do container para a 443 do host
+    volumes:
+      - ./nginx-conf:/etc/nginx/conf.d  # Pasta de configuração do Nginx
+      - /root/dnt/dnt-comming-soon/nginx-conf:/usr/share/nginx/html   # Caminho para o conteúdo estático
+      - /etc/letsencrypt:/etc/letsencrypt  # Volume para o Certbot armazenar os certificados SSL
+    networks:
+      - mysql-compose-network
+    depends_on:
+      - app
+      - pergunta
+    command: /bin/bash -c "service nginx start && tail -f /dev/null"  # Inicia o Nginx
+
+  certbot:
+    image: certbot/certbot
+    command: certonly --webroot --webroot-path=/usr/share/nginx/html -d dnt.somosicev.com
+    volumes:
+      - /root/dnt/dnt-comming-soon/nginx-conf:/usr/share/nginx/html  # Webroot para Certbot
+      - /etc/letsencrypt:/etc/letsencrypt  # Para armazenar os certificados gerados
+    networks:
+      - mysql-compose-network
+    entrypoint: /bin/sh -c "while :; do sleep 6h & wait $${!}; certbot renew; done"  # Renova o certificado a cada 6 horas
+    depends_on:
+      - web
+
+networks:
+  mysql-compose-network:
+    driver: bridge
