@@ -9,6 +9,7 @@ import React, { Suspense } from 'react'
 import MapaEvento from './components/MapaEvento'
 import Navbar from './components/Header'
 import HubSec from './components/hub2'
+import DoityInscricao from './components/DoityInscricao'
 // import InfoSection from './components/InfoSection'
 
 export default function Home() {
@@ -31,7 +32,8 @@ export default function Home() {
         <Patrocinador />
       </Suspense>
       <PalestrantesSection />
-      <IframeDoity />
+      {/* <IframeDoity /> */}
+      <DoityInscricao />
       <Footer />
     </>
   )
