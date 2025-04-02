@@ -37,7 +37,7 @@ export default function HeroSection() {
           className="px-8 py-4 mt-20 justify-center  bg-[#ffff00] hover:bg-[#4b4b17] rounded-lg transition-colors duration-500 ease-in-out hover:text-white text-sm lg:text-base font-semibold text-black"
           onClick={scrollToIFrame}
         >
-          SAIBA TUDO DO IV DNT
+          GARANTA SEU INGRESSO
         </button>
       </div>
     </div>

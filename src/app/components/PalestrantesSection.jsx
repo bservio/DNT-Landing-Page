@@ -2,6 +2,7 @@ import React from "react";
 import GridPalestrantes2 from "./GridPalestrantes2";
 import Link from "next/link";
 import NovosPalestrantes from "./NovosPalestrantes";
+import SpeakerList from "./Speaker";
 
 export default function PalestrantesSection() {
   return (
@@ -22,7 +23,7 @@ export default function PalestrantesSection() {
         </h3>
       </div>
 
-      <NovosPalestrantes />
+      {/* <NovosPalestrantes /> */}
 
       {/* <GridPalestrantes2 />
       <Link href="/programacao" className=''>
@@ -32,6 +33,11 @@ export default function PalestrantesSection() {
           Confira nossa programação completa
         </button>
       </Link> */}
+      <SpeakerList />
+      <h3 className="text-[#ffff00] lg:text-lg mt-8">
+        Em breve mais novidades sobre os palestrantes e a programação do evento
+        ...
+      </h3>
     </div>
   );
 }

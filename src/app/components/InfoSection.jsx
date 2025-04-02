@@ -17,12 +17,12 @@ export default function InfoSection() {
     >
       <div className="flex flex-col items-center">
         <h2
-          className={`${bungee.className} text-3xl text-[#ffff00] lg:text-5xl`}
+          className={`${bungee.className} text-center text-3xl text-[#ffff00] lg:text-5xl`}
         >
           O IV DNT ESTÁ CONFIRMADO
         </h2>
         <h3 className="uppercase text-xl font-bold lg:text-3xl">
-          DIAS 28, 29 e 30 de março
+          DIAS 28, 29 e 30 de maio
         </h3>
       </div>
 

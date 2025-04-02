@@ -17,14 +17,18 @@ const DoityInscricao = () => {
   }, []);
 
   return (
-    <div className="bg-[#00264d]">
-      <div className="max-w-[1440px] m-auto flex flex-col items-center bg-[#00264d] border-none ">
+    <div className="pt-8 bg-white">
+      <div className="p-4 lg:max-w-[1200px] m-auto flex flex-col items-center  border-none ">
         <iframe
           id="iframe-inscricao"
-          className="w-full h-[1000px] border-none section-title"
-          src="https://doity.com.br/iiicongressoicev-216998-20250331150337/passo1?box=1"
+          className="w-full h-[900px] border-none section-title"
+          src="https://doity.com.br/iv-congresso-dnt-icev/passo1?box=1"
         ></iframe>
-        <p className="text-center  text-sm font-bold mt-4">
+        <p className="text-center text-[#801e61] text-sm font-bold">
+          Ao clicar no botão de inscrição, você será redirecionado para o site
+          do Doity, onde poderá finalizar sua inscrição.
+        </p>
+        <p className="text-center text-[#801e61] text-sm font-bold mt-4">
           Caso não consiga fazer a inscrição
           <a
             target="_blank"

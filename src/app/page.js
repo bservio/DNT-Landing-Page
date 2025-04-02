@@ -24,6 +24,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <Suspense fallback={<div>Loading....</div>}>
+        <PalestrantesSection /> 
         <InfoSection />
         <MapaEvento />
         <Carousel />
@@ -31,7 +32,6 @@ export default function Home() {
         {/* <HubSection /> */}
         <Patrocinador />
       </Suspense>
-      <PalestrantesSection />
       {/* <IframeDoity /> */}
       <DoityInscricao />
       <Footer />
