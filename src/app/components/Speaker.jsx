@@ -58,8 +58,8 @@ export default function SpeakerList() {
       name: "Gustavo Guanabara",
       title: "CEO do Curso em Vídeo",
       bio: "Criador de cursos online e influenciador digital.",
-      image: "/img/palestrantes/4dnt/png/Gustavo_Guanabara.png",
-      smallImg: "/img/palestrantes/4dnt/Gustavo_Guanabara.webp",
+      image: "/img/palestrantes/4dnt/png/Gustavo_Guanabara2.png",
+      smallImg: "/img/palestrantes/4dnt/Gustavo_Guanabara2.webp",
       fullbio:
         "Formado em tecnologia e informática, é professor de computação e linguagens de programação do canal no YouTube que criou, chamado Curso em Vídeo. Além do canal, é palestrante e professor desde 1994 em escolas infantis, cursos técnicos e universidades, além de também já ter trabalhado com o chamado EAD (ensino à distância) para uma universidade pública. Seu canal possui cursos de PHP, Java, Python, C++ e outras línguas computacionais.",
       link: "https://www.cursoemvideo.com/sobre/",
@@ -68,11 +68,31 @@ export default function SpeakerList() {
       name: "Joel Pinheiro",
       title: "Economista, mestre em filosofia pela USP",
       bio: "Comentarista Globo News e Colunista da Folha de SP",
-      image: "/img/palestrantes/4dnt/png/Joel_Pinheiro.png",
-      smallImg: "/img/palestrantes/4dnt/Joel_Pinheiro.webp",
+      image: "/img/palestrantes/4dnt/png/Joel_Pinheiro2.png",
+      smallImg: "/img/palestrantes/4dnt/Joel_Pinheiro2.webp",
       fullbio:
         "Formou-se em economia pelo Insper em 2007 e em filosofia pela Universidade de São Paulo (USP) em 2008, é mestre em filosofia também pela USP. Em junho de 2024, foi contratado pelo Grupo Globo para atuar como comentarista da GloboNews. Em 8 de julho de 2024, estreou como comentarista do programa Estúdio i, da GloboNews.",
       link: "https://www.instagram.com/joelpinheiro85/",
+    },
+    {
+      name: "Perla Amabile",
+      title: "Co-fundadora da Be Intelligence",
+      bio: "NeuroEstrategista e Data Insighter",
+      image: "/img/palestrantes/4dnt/png/Perla.png",
+      smallImg: "/img/palestrantes/4dnt/Perla.webp",
+      fullbio:
+        "NeuroEstrategista e Data Insighter, unindo ciência e estratégia para potencializar o valor de marcas no mercado. Pioneira em NeuroEstratégia e NeuroBranding no Brasil. Com mais de 20 anos de experiência em marketing, branding e inovação, já integrou o board de grandes grupos de comunicação e consultorias digitais, contribuindo com estratégias para algumas das marcas mais amadas do mundo. É TVhost do programa EstrategicaMente no Terra, onde explora os bastidores das decisões estratégicas dos líderes da nova economia.",
+      link: "https://www.linkedin.com/in/perlaamabile/",
+    },
+    {
+      name: "Cristiano Santos",
+      title: "LinkedIn Top Voice",
+      bio: "Professor. Palestrante internacional. TEDx Speaker e consultor. ",
+      image: "/img/palestrantes/4dnt/png/Cristiano_Santos.png",
+      smallImg: "/img/palestrantes/4dnt/Cristiano_Santos.webp",
+      fullbio:
+        "Cristiano Santos atua há mais de 8 anos no mercado digital. Proprietário da CS Treinamento e Desenvolvimento, é hoje reconhecido como um dos melhores palestrantes do país. Suas palestras, cursos e consultorias voltadas são aos temas de marketing digital, mídias sociais, personal branding, transformação digital, cliente 4.0 e carreira na era digital.",
+      link: "https://santoscristiano.com.br/",
     },
     {
       name: "Fernanda Nogueira",
@@ -117,7 +137,7 @@ export default function SpeakerList() {
   ];
 
   return (
-    <div className="flex m-auto flex-wrap max-w-[1000px] items-center justify-center gap-4 p-4">
+    <div className="flex m-auto flex-wrap max-w-[1200px] items-center justify-center gap-4 p-4">
       {speakers.map((speaker, index) => (
         <SpeakerCard key={index} {...speaker} />
       ))}

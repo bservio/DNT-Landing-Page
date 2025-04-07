@@ -2,7 +2,7 @@
 import { Bungee_Inline } from "next/font/google";
 import React from "react";
 
-const bungee = Bungee_Inline({ subsets: ["latin"], weight: ["400"] });
+export const bungee = Bungee_Inline({ subsets: ["latin"], weight: ["400"] });
 
 export default function InfoSection() {
   const scrollToPalestrantes = () => {
