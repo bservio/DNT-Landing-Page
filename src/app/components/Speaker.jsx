@@ -134,10 +134,20 @@ export default function SpeakerList() {
         "Liana Chaib é Ministra do Tribunal Superior do Trabalho. Doutora em Direito Constitucional pela Universidade de Fortaleza e mestre em Direito Constitucional pela Universidade Federal do Ceará. Ocupa a cadeira de número 21 da Academia Piauiense de Letras Jurídicas e é professora de Direito Administrativo da Universidade Estadual do Piauí desde 1988.",
       link: "http://lattes.cnpq.br/5787065032422913",
     },
+    {
+      name: "Junior Santana",
+      title: "CEO do Grupo Santana",
+      bio: "Co-fundador da Jolt Agency e projeto 'Seja Uma Fonte'",
+      image: "/img/palestrantes/4dnt/png/Santana.png",
+      smallImg: "/img/palestrantes/4dnt/Santana.webp",
+      fullbio:
+        "Empreendedor desde os 20 anos, é especialista em Gestão e Processos, com sólida experiência na liderança de equipes e desenvolvimento de estratégias empresariais. CEO do Grupo Santana, também é cofundador da Jolt Agency e do projeto Seja Uma Fonte, iniciativas que unem inovação, impacto e propósito. Atua como consultor e advisor de negócios, ajudando empresas a crescer com foco em eficiência, diferenciação e resultado.",
+      link: "http://lattes.cnpq.br/5787065032422913",
+    },
   ];
 
   return (
-    <div className="flex m-auto flex-wrap max-w-[1200px] items-center justify-center gap-4 p-4">
+    <div className="flex m-auto flex-wrap max-w-[1400px] items-center justify-center gap-4 p-4">
       {speakers.map((speaker, index) => (
         <SpeakerCard key={index} {...speaker} />
       ))}
