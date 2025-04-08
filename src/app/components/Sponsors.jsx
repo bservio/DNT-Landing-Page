@@ -3,15 +3,31 @@ import Image from "next/image";
 import { bungee } from "./InfoSection";
 
 const SponsorsSection = () => {
-  const imgPath = "/img/patrocinadores/4dnt/";
+  const imgPath = "/img/patrocinadores/4dnt/webp/";
   const sponsors = [
     {
       name: "ServTec",
-      image: imgPath + "Servtec_Negativo.png",
+      image: imgPath + "Servtec_Negativo" + ".webp",
     },
     {
       name: "Bunker Advertising",
-      image: imgPath + "Bnkr_Full.png",
+      image: imgPath + "Bunker_Logo" + ".webp",
+    },
+    {
+      name: "Piauí Negócios",
+      image: imgPath + "logo-piauinegocios" + ".webp",
+    },
+    {
+      name: "Amoreira",
+      image: imgPath + "logo-amoreira" + ".webp",
+    },
+    {
+      name: "AES - Marketing e Negócios Digitais",
+      image: imgPath + "AES_Negativo" + ".webp",
+    },
+    {
+      name: "Mister Wiz",
+      image: imgPath + "Mister_Wiz" + ".webp",
     },
   ];
   return (
@@ -24,15 +40,15 @@ const SponsorsSection = () => {
         </h3>
         <h4>O DNT te coloca de frente com as maiores marcas</h4>
         <div className="mt-8">
-          <h5>Patrocinadores</h5>
+          <h5>Patrocinadores & Apoiadores</h5>
           <div className="flex gap-4 items-center justify-center flex-wrap">
             {sponsors.map((sponsor, index) => (
               <Image
                 src={sponsor.image}
                 alt={sponsor.name}
                 key={index}
-                width={150}
                 height={150}
+                width={150}
               />
             ))}
           </div>

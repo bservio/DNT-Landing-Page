@@ -144,10 +144,41 @@ export default function SpeakerList() {
         "Empreendedor desde os 20 anos, é especialista em Gestão e Processos, com sólida experiência na liderança de equipes e desenvolvimento de estratégias empresariais. CEO do Grupo Santana, também é cofundador da Jolt Agency e do projeto Seja Uma Fonte, iniciativas que unem inovação, impacto e propósito. Atua como consultor e advisor de negócios, ajudando empresas a crescer com foco em eficiência, diferenciação e resultado.",
       link: "http://lattes.cnpq.br/5787065032422913",
     },
+    {
+      name: "Rebeca Nepomuceno",
+      title:
+        "Diretora de Economia Digital e Inovação da Secretaria de Inteligência Artificial",
+      bio: "Economista mestre em Economia pela Universidade Federal de Viçosa",
+      image: "/img/palestrantes/4dnt/png/Rebeca_Nepomuceno.png",
+      smallImg: "/img/palestrantes/4dnt/Rebeca_Nepomuceno.webp",
+      fullbio:
+        "Rebeca Nepomuceno é economista pela Universidade de Brasília (UnB), mestre em Economia pela Universidade Federal de Viçosa e pós-graduanda em Inteligência Artificial e Análise de Dados. Atualmente, ocupa o cargo de Diretora de Economia Digital e Inovação na Secretaria de Inteligência Artificial, onde lidera iniciativas voltadas à economia digital, inovação e uso de IA no setor público. Com experiência na formulação de políticas para a economia digital e na implementação de estratégias de inteligência artificial para modernização da gestão pública, faz parte da equipe que ministra o Masterclass em IA para o Setor Público, capacitando gestores e servidores sobre as melhores práticas no uso da IA para aprimoramento de serviços governamentais",
+      link: "https://www.linkedin.com/in/rebeca-maria-nepomuceno-lima-09a74260/",
+    },
+    {
+      name: "Miriane Ferreira",
+      title: "Advogada, mestre em Direito e Tecnologia ",
+      bio: "Pós-graduada em Direito de Família e Sucessões, Pós-graduada em Psicanálise, Pós-graduada em Direito Penal, Pós-graduada em Processo Penal",
+      image: "/img/palestrantes/4dnt/png/Miriane_Ferreira.png",
+      smallImg: "/img/palestrantes/4dnt/Miriane_Ferreira.webp",
+      fullbio:
+        "Miriane Ferreira é advogada especialista em Direito de Família e Sucessões, com formação em Psicanálise e atuação voltada ao acolhimento jurídico e emocional de mulheres em processos de separação e reestruturação familiar. Graduada em Direito, com sólida formação multidisciplinar e constante aprimoramento acadêmico, Miriane alia excelência técnica à sensibilidade no trato com questões familiares complexas. Seu trabalho é reconhecido pela dedicação à justiça e pelo compromisso em oferecer um suporte jurídico humanizado, integrando saberes do Direito e da Psicanálise para proporcionar soluções eficazes e acolhedoras aos seus clientes.",
+      link: "https://mirianeferreira.com.br/miriane-ferreira/",
+    },
+    {
+      name: "Neto Ribeiro",
+      title: "Consultor Empresarial, empresário e CEO da Consultoria+",
+      bio: "Formação em Contabilidade, pós-graduação em Management",
+      image: "/img/palestrantes/4dnt/png/Neto_Ribeiro.png",
+      smallImg: "/img/palestrantes/4dnt/Neto_Ribeiro.webp",
+      fullbio:
+        "Consultor Empresarial, empresário e CEO da CONSULTORIA+, formação em Contabilidade, pós-graduação em Management, especialização em liderança, expertise em marketing digital para negócios, marketing político, escritor, professor e mentor.",
+      link: "https://astronautaconsultor.com.br/",
+    },
   ];
 
   return (
-    <div className="flex m-auto flex-wrap max-w-[1400px] items-center justify-center gap-4 p-4">
+    <div className="flex m-auto flex-wrap max-w-[1200px] items-center justify-center gap-4 p-4">
       {speakers.map((speaker, index) => (
         <SpeakerCard key={index} {...speaker} />
       ))}
