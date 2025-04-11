@@ -1,9 +1,6 @@
-import Navbar from "@/app/components/Header";
-
 const ChamadaMinicursoPage = () => {
   return (
     <>
-      <Navbar />
       <div className="max-w-[1000px] m-auto">
         <div className="mt-4">
           <h1 className="font-bold text-3xl">Chamada de Minicursos</h1>

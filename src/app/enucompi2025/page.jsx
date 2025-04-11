@@ -4,7 +4,6 @@ const { default: Navbar } = require("../components/Header");
 const EnucompiPage = () => {
   return (
     <>
-      <Navbar />
       <div className="max-w-[1000px] m-auto">
         <div className="mt-4">
           <h1 className="font-bold text-3xl">O ENUCOMPI 2025 será no DNT!</h1>

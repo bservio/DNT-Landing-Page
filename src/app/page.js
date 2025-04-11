@@ -1,16 +1,11 @@
-// import HubSection from './components/HubSection'
+
 import HeroSection from './components/HeroSection'
-// import CarouselTest from './components/CarouselTest'
 import PalestrantesSection from './components/PalestrantesSection'
-import Footer from './components/Footer'
-// import Patrocinador from './components/Patrocinador'
 import React, { Suspense } from 'react'
 import MapaEvento from './components/MapaEvento'
-import Navbar from './components/Header'
 import HubSec from './components/hub2'
 import DoityInscricao from './components/DoityInscricao'
 import SponsorsSection from './components/Sponsors'
-// import InfoSection from './components/InfoSection'
 
 export default function Home() {
   
@@ -20,8 +15,6 @@ export default function Home() {
 
   return (
     <>
-           
-      <Navbar />
       <HeroSection />
       <Suspense fallback={<div>Loading....</div>}>
         <PalestrantesSection /> 
@@ -33,7 +26,7 @@ export default function Home() {
         <Patrocinador />
       </Suspense>
       <DoityInscricao />
-      <Footer />
+      
     </>
   )
 }

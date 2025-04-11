@@ -1,18 +1,38 @@
 import { Montserrat } from 'next/font/google'
 import './globals.css'
+import{ GoogleTagManager } from "@next/third-parties/google"
+import Navbar from './components/Header'
+import LGPDNotice from './components/LGPDNotice';
+import Footer from './components/Footer';
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'III Congresso DNT',
-  description: 'III Congresso de Direito, Negócios e Tecnologia.',
+  title: 'IV Congresso DNT',
+  description: 'IV Congresso de Direito, Negócios e Tecnologia.',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
+
+      <GoogleTagManager gtmId="GTM-PB72P9C"/>
       
-      <body className={montserrat.className}>{children}</body>
+      <body className={montserrat.className}>
+        <LGPDNotice />
+        <Navbar />
+        {children}
+        <Footer />
+         <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-PB72P9C"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
+
+      </body>
     </html>
   )
 }

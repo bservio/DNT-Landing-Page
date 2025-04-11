@@ -6,7 +6,6 @@ import Image from "next/image";
 const LivroDntPage = () => {
   return (
     <Fragment>
-      <Navbar />
       <div className="max-w-[1000px] m-auto p-4">
         <div className="mt-4">
           <h1 className="font-bold text-3xl">
