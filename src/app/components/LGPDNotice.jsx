@@ -8,7 +8,7 @@ const LGPDNotice = () => {
 
   useEffect(() => {
     const consent = localStorage.getItem("lgpd-consent");
-    if (consent) {
+    if (!consent) {
       setShowLgpdBanner(true);
     }
   }, []);
@@ -18,7 +18,7 @@ const LGPDNotice = () => {
     setShowLgpdBanner(false);
 
     if (accepted) {
-      // Implementar lógica para aceitar cookies
+      // Aqui você pode ativar scripts de tracking, analytics, etc
       console.log("Cookies aceitos");
     }
   };
@@ -28,9 +28,10 @@ const LGPDNotice = () => {
       <p>
         Utilizamos cookies para melhorar sua experiência. Ao continuar
         navegando, você concorda com nossa{" "}
-        <a href="/politica-de-privacidade" className="text-blue-500">
+        <a href="/politica-de-privacidade" className="text-blue-500 underline">
           Política de Privacidade
         </a>
+        .
       </p>
       <div className="flex justify-end mt-2">
         <Button onClick={handleConsent(true)} className="mr-2">
@@ -38,7 +39,7 @@ const LGPDNotice = () => {
         </Button>
         <Button
           onClick={handleConsent(false)}
-          className="bg-gray-300 text-black"
+          className="bg-gray-300 text-black hover:bg-gray-400"
         >
           Não Aceito
         </Button>

@@ -125,13 +125,13 @@ const ChamadaArtigoPage = () => {
               Abertura da Chamada: <strong>24 de fevereiro de 2025</strong>
             </li>
             <li>
-              Data Limite para Submissão: <strong>06 de abril de 2025</strong>
+              Data Limite para Submissão: {" "} <span className="text-red-700 line-through">06 de abril de 2025</span> <strong>13 de abril de 2025</strong>
             </li>
             <li>
-              Divulgação dos Aceites: <strong>05 de maio de 2025</strong>
+              Divulgação dos Aceites: {" "}<span className="text-red-700 line-through">05 de maio de 2025</span> <strong>16 de maio de 2025</strong>
             </li>
             <li>
-              Prazo Envio da Versão Final: <strong>05 de maio de 2025</strong>
+              Prazo Envio da Versão Final: {" "}<span className="text-red-700 line-through">05 de maio de 2025</span> <strong>25 de maio de 2025</strong>
             </li>
             <li>
               Inscrição dos Autores: <strong>18 de maio de 2025</strong>

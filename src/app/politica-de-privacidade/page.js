@@ -30,7 +30,7 @@ const PoliticaDePrivacidadePage = () => {
 
         <section className="mb-6">
           <h2 className="text-xl font-semibold mb-2">5. Seus Direitos</h2>
-          <p>Você pode solicitar acesso, correção ou exclusão dos seus dados pelo e-mail privacidade@seudominio.com.</p>
+          <p>Você pode solicitar acesso, correção ou exclusão dos seus dados pelo e-mail privacidade@somosicev.com.</p>
         </section>
 
         <section className="mb-6">
@@ -40,7 +40,7 @@ const PoliticaDePrivacidadePage = () => {
 
         <section className="mb-6">
           <h2 className="text-xl font-semibold mb-2">7. Contato</h2>
-          <p>Para dúvidas, envie um e-mail para privacidade@seudominio.com.</p>
+          <p>Para dúvidas, envie um e-mail para privacidade@somosicev.com.</p>
         </section>
 
         <p className="text-sm text-gray-500 mt-10">Última atualização: 09 de abril de 2025</p>

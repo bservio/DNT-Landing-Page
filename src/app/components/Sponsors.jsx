@@ -10,6 +10,10 @@ const SponsorsSection = () => {
       image: imgPath + "Servtec_Negativo" + ".webp",
     },
     {
+      name: "Embarque Turismo",
+      image: imgPath + "logo-embarque-negativo" + ".webp",
+    },
+    {
       name: "Bunker Advertising",
       image: imgPath + "Bunker_Logo" + ".webp",
     },
@@ -41,14 +45,14 @@ const SponsorsSection = () => {
         <h4>O DNT te coloca de frente com as maiores marcas</h4>
         <div className="mt-8">
           <h5>Patrocinadores & Apoiadores</h5>
-          <div className="flex gap-4 items-center justify-center flex-wrap">
+          <div className="flex gap-8 items-center justify-center flex-wrap">
             {sponsors.map((sponsor, index) => (
               <Image
                 src={sponsor.image}
                 alt={sponsor.name}
                 key={index}
-                height={150}
-                width={150}
+                height={120}
+                width={120}
               />
             ))}
           </div>
