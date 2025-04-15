@@ -128,14 +128,24 @@ export default function SpeakerList() {
       link: "http://lattes.cnpq.br/6582039851797563",
     },
     {
-      name: "Larissa Agrélio",
-      title: "Diretora Jurídica do Grupo R9 (Ronaldo Fenômeno)",
-      bio: "Advogada, Mestranda no ISDE - Madri",
-      image: "/img/palestrantes/4dnt/png/Larissa_Agrelio.png",
-      smallImg: "/img/palestrantes/4dnt/Larissa_Agrelio.webp",
+      name: "Bruno Agrélio",
+      title: "Sócio fundador do Grupo CEV. Presidente de Tecnologia e Inovação do LIDE Piauí.",
+      bio: "Doutor em Inteligência Artificial.",
+      image: "/img/palestrantes/4dnt/png/Bruno.png",
+      smallImg: "/img/palestrantes/4dnt/Bruno.webp",
       fullbio:
-        "Possui graduação em Direito pela Universidade Federal do Rio de Janeiro(2014). Possui mestrado global em Direito Desportivo Internacional pela ISDE Law & Business Scholl. Diretora Jurídica do Octagon Brasil, do ODDZ Network e do R9 GestãoPatrimonial & Financeira.",
-      link: "https://www.instagram.com/larissaagrelioadvogada/",
+        "Bruno Agrélio é economista formado pela Universidade de São Paulo (USP), com Mestrado e Doutorado em Inteligência Artificial pela PUC-Rio. Com uma carreira sólida no setor financeiro, atuou nos bancos de investimento JP Morgan e Dresdner Bank, além de ter lecionado finanças em programas de MBA da FGV, PUC-Rio e UFRJ. É Sócio Fundador da BR Tecnologias e Projetos, do Grupo Educacional CEV e do iCEV - Instituto de Ensino Superior, consolidando sua atuação no desenvolvimento de soluções inovadoras em educação e tecnologia. Atualmente, é Presidente de Tecnologia e Inovação do LIDE Piauí, onde contribui ativamente para o fomento do ecossistema de inovação e transformação digital no estado.",
+      link: "https://www.linkedin.com/in/bruno-agrelio/",
+    },
+    {
+      name: "Laura Nascimento",
+      title: "Advogada especialista em direito da saude e direito das pessoas com deficiência.",
+      bio: "Presidente da Comissão de Defesa dos Direitos da Pessoa com Autismo da OAB-PI.",
+      image: "/img/palestrantes/4dnt/png/Laura_Nascimento.png",
+      smallImg: "/img/palestrantes/4dnt/Laura_Nascimento.webp",
+      fullbio:
+        "Advogada especialista em direito da saude e direito das pessoas com deficiência. Proprietária do escritório LN Advocacia. Presidente da Comissão de Defesa dos Direitos da Pessoa com Autismo da OAB-PI. Auditora de Controle Externo do TRIBUNAL DE CONTAS DO PIAUÍ. Membro do Comitê de Acessibilidade e Inclusão do TCE-PI. Professora. Palestrante.Influenciadora e ativista da inclusão e mãe atípica.",
+      link: "http://lattes.cnpq.br/9441164396925524",
     },
     {
       name: "Liana Chaib",
@@ -185,7 +195,7 @@ export default function SpeakerList() {
     {
       name: "Miriane Ferreira",
       title: "Advogada, mestre em Direito e Tecnologia ",
-      bio: "Pós-graduada em Direito de Família e Sucessões, Pós-graduada em Psicanálise, Pós-graduada em Direito Penal, Pós-graduada em Processo Penal",
+      bio: "Pós-graduada em Direito de Família e Sucessões, Pós-graduada em Psicanálise.",
       image: "/img/palestrantes/4dnt/png/Miriane_Ferreira.png",
       smallImg: "/img/palestrantes/4dnt/Miriane_Ferreira.webp",
       fullbio:
