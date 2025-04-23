@@ -129,7 +129,8 @@ export default function SpeakerList() {
     },
     {
       name: "Bruno Agrélio",
-      title: "Sócio fundador do Grupo CEV. Presidente de Tecnologia e Inovação do LIDE Piauí.",
+      title:
+        "Sócio fundador do Grupo CEV. Presidente de Tecnologia e Inovação do LIDE Piauí.",
       bio: "Doutor em Inteligência Artificial.",
       image: "/img/palestrantes/4dnt/png/Bruno.png",
       smallImg: "/img/palestrantes/4dnt/Bruno.webp",
@@ -139,7 +140,8 @@ export default function SpeakerList() {
     },
     {
       name: "Laura Nascimento",
-      title: "Advogada especialista em direito da saude e direito das pessoas com deficiência.",
+      title:
+        "Advogada especialista em direito da saude e direito das pessoas com deficiência.",
       bio: "Presidente da Comissão de Defesa dos Direitos da Pessoa com Autismo da OAB-PI.",
       image: "/img/palestrantes/4dnt/png/Laura_Nascimento.png",
       smallImg: "/img/palestrantes/4dnt/Laura_Nascimento.webp",
@@ -187,6 +189,16 @@ export default function SpeakerList() {
       smallImg: "/img/palestrantes/4dnt/Neto_Ribeiro.webp",
       fullbio:
         "Consultor Empresarial, empresário e CEO da CONSULTORIA+, formação em Contabilidade, pós-graduação em Management, especialização em liderança, expertise em marketing digital para negócios, marketing político, escritor, professor e mentor.",
+      link: "https://astronautaconsultor.com.br/",
+    },
+    {
+      name: "Lara Ferreira Silva Dias",
+      title: "Coordenadora de Projetos de Internacionalização na SEDUC-PI",
+      bio: "Doutoranda em Estudos Literários pela UFPI, com Doutorado Sanduíche na Goldsmiths, University of London",
+      image: "/img/palestrantes/4dnt/png/Lara_Fernanda.png",
+      smallImg: "/img/palestrantes/4dnt/Lara_Fernanda.webp",
+      fullbio:
+        "Professora de Língua Inglesa e Literaturas na UESPI e Coordenadora de Projetos de Internacionalização na SEDUC-PI. Doutoranda em Estudos Literários pela UFPI, com Doutorado Sanduíche na Goldsmiths, University of London. Atua em iniciativas estrangeiras, como o Seduckathon,  e programas de formação em parceria com a Embaixada dos EUA. Coautora de livros didáticos de inglês e com ampla experiência em ensino básico, técnico e superior, desenvolve ações voltadas à mobilidade acadêmica, cooperação internacional e formação docente.",
       link: "https://astronautaconsultor.com.br/",
     },
   ];
