@@ -12,7 +12,8 @@ const ProgramacoPage = () => {
   
   return ( 
     <>
-      <div className=""
+      oi
+      {/* <div className=""
         style={{ background: "linear-gradient(189deg, rgba(122,27,98,1) 34%, rgba(0,38,77,1) 97%)" }}
       >
         <div 
@@ -104,7 +105,7 @@ const ProgramacoPage = () => {
       <div>
         <IframeDoity />
       </div>
-      <Footer />
+      <Footer /> */}
     </>
    );
 }
