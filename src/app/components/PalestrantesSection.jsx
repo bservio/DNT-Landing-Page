@@ -1,7 +1,4 @@
 import React from "react";
-import GridPalestrantes2 from "./GridPalestrantes2";
-import Link from "next/link";
-import NovosPalestrantes from "./NovosPalestrantes";
 import SpeakerList from "./Speaker";
 
 export default function PalestrantesSection() {
@@ -22,17 +19,6 @@ export default function PalestrantesSection() {
           Conheça alguns dos palestrantes confirmados
         </h3>
       </div>
-
-      {/* <NovosPalestrantes /> */}
-
-      {/* <GridPalestrantes2 />
-      <Link href="/programacao" className=''>
-        <button 
-          className='mt-20 justify-center w-[350px] h-[60px] bg-[#ffff00] text-sm text-black font-semibold uppercase hover:bg-[#4b4b17] transition-colors duration-500 ease-in-out hover:text-white'
-        >
-          Confira nossa programação completa
-        </button>
-      </Link> */}
       <SpeakerList />
       <h3 className="text-[#ffff00] lg:text-lg mt-8">
         Em breve mais novidades sobre os palestrantes e a programação do evento

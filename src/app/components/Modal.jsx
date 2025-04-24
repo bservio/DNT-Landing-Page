@@ -19,13 +19,7 @@ export default function Modal({ isOpen, onClose, children }) {
         >
           X
         </button>
-        <div
-          className=" text-black bg-white p-4 rounded-3xl bg-opacity-90"
-          // style={{
-          //   background:
-          //     "linear-gradient(189deg, rgba(0,38,77,1) 34%,  rgba(122,27,98,1) 97%)",
-          // }}
-        >
+        <div className=" text-black bg-white p-4 rounded-3xl bg-opacity-90">
           {children}
         </div>
       </div>

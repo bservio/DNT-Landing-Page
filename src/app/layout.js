@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
             height="0"
             width="0"
             style={{ display: 'none', visibility: 'hidden' }}
+            strategy="lazyOnload"
           ></iframe>
         </noscript>
 

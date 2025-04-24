@@ -9,6 +9,7 @@ const DoityInscricao = () => {
     script.src = "https://doity.com.br/js/box_inscricao.js";
     script.type = "text/javascript";
     script.async = true;
+    script.setAttribute("strategy", "lazyOnload");
     document.body.appendChild(script);
 
     return () => {
