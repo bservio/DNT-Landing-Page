@@ -7,7 +7,7 @@ const SomePage = () => {
   return (
     <div>
       <h1>Some Page</h1>
-      <QRCodeReader />
+      {/* <QRCodeReader /> */}
     </div>
   );
 };
