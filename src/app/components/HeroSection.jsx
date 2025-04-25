@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import FontChanger from "./FontChanger";
+import VideoWithPoster from "./VideoWithPoster";
 
 export function scrollToIFrame() {
   const iframe = document.getElementById("iframe-inscricao");
@@ -20,14 +21,7 @@ export default function HeroSection() {
           className="lg:w-[300px]"
         /> */}
       </div>
-      {/* <video
-        className="absolute top-0 left-0 w-full h-full object-cover -z-20 opacity-70"
-        src="/video/video-dnt-2024.mp4"
-        playsInline
-        autoPlay
-        muted
-        loop
-      ></video> */}
+      <VideoWithPoster />
       <div className=" text-white flex flex-col items-center justify-center capitalize font-semibold text-xl lg:text-5xl tracking-wider">
         <h1>ONDE A</h1>
         <FontChanger />

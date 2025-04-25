@@ -17,7 +17,7 @@ const Navbar = () => {
             src="/logos/Ativo 5.svg"
             width={150}
             height={30}
-            className="lg:w-[200px] 2xl:w-[250px]"
+            className="lg:w-[200px] 2xl:w-[200px]"
             priority
           />
         </Link>
