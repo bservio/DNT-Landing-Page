@@ -18,10 +18,12 @@ export default function RootLayout({ children }) {
 
       <GoogleTagManager gtmId="GTM-PB72P9C"/>
       
-      <body className={montserrat.className}>
+      <body className={`${montserrat.className} flex flex-col min-h-screen`}>
         <LGPDNotice />
         <Navbar />
-        {children}
+        <div className='flex-1'>
+          {children}
+        </div>
         <Footer />
          <noscript>
           <iframe

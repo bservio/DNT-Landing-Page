@@ -58,6 +58,14 @@ const Navbar = () => {
               Enucompi 2025
             </Link>
           </li>
+          <li>
+            <Link
+              href="/batalha-de-startups"
+              className="hover:text-gray-400 transition"
+            >
+              Batalha de Startups
+            </Link>
+          </li>
         </ul>
 
         <div
@@ -86,35 +94,45 @@ const Navbar = () => {
           }`}
           style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
         >
-          <li className="list-none w-full text-center p-4 ">
-            <Link href="/" className="hover:text-gray-400 transition">
-              Início
-            </Link>
-          </li>
-          <li className="list-none w-full text-center p-4 ">
-            <Link
-              href="/enucompi2025"
-              className="hover:text-gray-400 transition"
-            >
-              Enucompi 2025
-            </Link>
-          </li>
-          <li className="list-none w-full text-center p-4 ">
-            <Link
-              href="/chamadas/artigos"
-              className="hover:text-gray-400 transition"
-            >
-              Artigos
-            </Link>
-          </li>
-          <li className="list-none w-full text-center p-4 ">
-            <Link
-              href="/chamadas/minicursos"
-              className="hover:text-gray-400 transition"
-            >
-              Minicursos
-            </Link>
-          </li>
+          <ul>
+            <li className="list-none w-full text-center p-4 ">
+              <Link href="/" className="hover:text-gray-400 transition">
+                Início
+              </Link>
+            </li>
+            <li className="list-none w-full text-center p-4 ">
+              <Link
+                href="/enucompi2025"
+                className="hover:text-gray-400 transition"
+              >
+                Enucompi 2025
+              </Link>
+            </li>
+            <li className="list-none w-full text-center p-4 ">
+              <Link
+                href="/chamadas/artigos"
+                className="hover:text-gray-400 transition"
+              >
+                Artigos
+              </Link>
+            </li>
+            <li className="list-none w-full text-center p-4 ">
+              <Link
+                href="/chamadas/minicursos"
+                className="hover:text-gray-400 transition"
+              >
+                Minicursos
+              </Link>
+            </li>
+            <li className="list-none w-full text-center p-4 ">
+              <Link
+                href="/batalha-de-startups"
+                className="hover:text-gray-400 transition"
+              >
+                Batalha de Startups
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

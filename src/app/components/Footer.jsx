@@ -6,15 +6,15 @@ import { FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa"; // Importan
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white  space-y-4">
-      <div className="container mx-auto flex justify-between items-center p-4">
+    <footer className="bg-gray-800 text-white  space-y-4 p-4 ">
+      <div className="container flex justify-between items-center max-w-7xl mx-auto">
         <div>
           <Image
             src="/logos/Ativo 3.svg"
             alt="Logo"
             height={43.33}
             width={150}
-            className="lg:w-[200px]"
+            className="lg:w-[150px]"
           />
         </div>
         <div className="flex space-x-4">

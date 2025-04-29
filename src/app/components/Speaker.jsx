@@ -10,7 +10,7 @@ const SpeakerCard = ({ name, title, bio, fullbio, image, smallImg, link }) => {
   return (
     <>
       <div
-        className="relative w-40 h-52 lg:w-44 lg:h-56 border rounded-2xl overflow-hidden shadow-lg group"
+        className="relative w-40 h-52 lg:w-44 lg:h-56 border rounded-2xl overflow-hidden shadow-lg group cursor-pointer"
         onClick={() => setShowModal(true)}
       >
         <Image
@@ -18,6 +18,7 @@ const SpeakerCard = ({ name, title, bio, fullbio, image, smallImg, link }) => {
           alt={name}
           className="w-full h-full object-cover"
           fill
+          sizes="100%"
         />
         <div className="absolute inset-0 bg-[#00264d] bg-opacity-80 flex items-center justify-center text-white p-2 lg:p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <div className="text-center">
@@ -67,7 +68,7 @@ const SpeakerCardSmall = ({
   return (
     <>
       <Card
-        className="p-2 bg-transparent w-[398px] flex items-center text-white gap-2 text-left"
+        className="p-2 bg-transparent w-[398px] flex items-center text-white gap-2 text-left cursor-pointer"
         onClick={() => setShowModal(true)}
       >
         <Image
@@ -167,7 +168,7 @@ export default function SpeakerList() {
       smallImg: "/img/palestrantes/4dnt/Santana.webp",
       fullbio:
         "Empreendedor desde os 20 anos, é especialista em Gestão e Processos, com sólida experiência na liderança de equipes e desenvolvimento de estratégias empresariais. CEO do Grupo Santana, também é cofundador da Jolt Agency e do projeto Seja Uma Fonte, iniciativas que unem inovação, impacto e propósito. Atua como consultor e advisor de negócios, ajudando empresas a crescer com foco em eficiência, diferenciação e resultado.",
-      link: "http://lattes.cnpq.br/5787065032422913",
+      link: "https://www.instagram.com/santana_jrn/",
     },
     {
       name: "Rebeca Nepomuceno",
