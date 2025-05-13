@@ -1,5 +1,6 @@
 import React from "react";
 import SpeakerList from "./Speaker";
+import Link from "next/link";
 
 export default function PalestrantesSection() {
   return (
@@ -20,10 +21,12 @@ export default function PalestrantesSection() {
         </h3>
       </div>
       <SpeakerList />
-      <h3 className="text-[#ffff00] lg:text-lg mt-8">
-        Em breve mais novidades sobre os palestrantes e a programação do evento
-        ...
-      </h3>
+
+      <Link href={"/programacao"}>
+        <button className="mt-8 bg-[#ffff00]  px-8 py-4 rounded-lg hover:bg-[#4b4b17] transition-colors duration-500 ease-in-out hover:text-white text-sm lg:text-base font-semibold text-black">
+          Confira a programação completa
+        </button>
+      </Link>
     </div>
   );
 }

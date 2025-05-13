@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <body className={`${montserrat.className} flex flex-col min-h-screen`}>
         <LGPDNotice />
         <Navbar />
-        <div className='flex-1'>
+        <div className='flex-1 mt-20'>
           {children}
         </div>
         <Footer />

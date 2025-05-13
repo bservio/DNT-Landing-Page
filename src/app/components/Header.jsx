@@ -8,54 +8,32 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-800 text-white">
-      <div className="container mx-auto flex justify-between items-center px-8 lg:px-12 py-8">
+    <nav className="bg-gray-800 text-white fixed z-50 w-screen">
+      <div className="container mx-auto flex justify-between items-center px-8 lg:px-12 py-4 ">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold">
           <Image
             alt=""
-            src="/logos/Ativo 5.svg"
+            src="/logos/logo_dnt_2025.png"
             width={150}
             height={30}
-            className="lg:w-[200px] 2xl:w-[200px]"
             priority
           />
         </Link>
 
         {/* Menu */}
-        <ul className="hidden lg:flex space-x-8 lg:text-xl">
+        <ul className="hidden lg:flex space-x-8 lg:text-lg">
           <li>
             <Link href="/" className="hover:text-gray-400 transition">
               Início
             </Link>
           </li>
           <li>
-            <Link href="/livrodnt" className="hover:text-gray-400 transition">
-              Livro
-            </Link>
-          </li>
-          <li>
             <Link
-              href="/chamadas/artigos"
+              href="/programacao"
               className="hover:text-gray-400 transition"
             >
-              Artigos
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/chamadas/minicursos"
-              className="hover:text-gray-400 transition"
-            >
-              Minicursos
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/enucompi2025"
-              className="hover:text-gray-400 transition"
-            >
-              Enucompi 2025
+              Programação
             </Link>
           </li>
           <li>
@@ -64,6 +42,20 @@ const Navbar = () => {
               className="hover:text-gray-400 transition"
             >
               Batalha de Startups
+            </Link>
+          </li>
+          <li>
+            <Link href="/livrodnt" className="hover:text-gray-400 transition">
+              Livro
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              href="/enucompi2025"
+              className="hover:text-gray-400 transition"
+            >
+              Enucompi 2025
             </Link>
           </li>
         </ul>
@@ -89,8 +81,8 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`z-50 absolute lg:hidden top-24 right-0 w-full bg-gray-800   flex flex-col items-center gap-6 font-semibold text-lg trasforn transition-transform ${
-            isMenuOpen ? "opacity-100" : "opacity-0"
+          className={`z-50 absolute lg:hidden top-20 right-0 w-full bg-gray-800   flex flex-col items-center gap-6 font-semibold text-lg trasforn transition-transform ${
+            isMenuOpen ? "opacity-100" : "opacity-0 hidden"
           }`}
           style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
         >
@@ -102,26 +94,10 @@ const Navbar = () => {
             </li>
             <li className="list-none w-full text-center p-4 ">
               <Link
-                href="/enucompi2025"
+                href="/programacao"
                 className="hover:text-gray-400 transition"
               >
-                Enucompi 2025
-              </Link>
-            </li>
-            <li className="list-none w-full text-center p-4 ">
-              <Link
-                href="/chamadas/artigos"
-                className="hover:text-gray-400 transition"
-              >
-                Artigos
-              </Link>
-            </li>
-            <li className="list-none w-full text-center p-4 ">
-              <Link
-                href="/chamadas/minicursos"
-                className="hover:text-gray-400 transition"
-              >
-                Minicursos
+                Programação
               </Link>
             </li>
             <li className="list-none w-full text-center p-4 ">
@@ -130,6 +106,14 @@ const Navbar = () => {
                 className="hover:text-gray-400 transition"
               >
                 Batalha de Startups
+              </Link>
+            </li>
+            <li className="list-none w-full text-center p-4 ">
+              <Link
+                href="/enucompi2025"
+                className="hover:text-gray-400 transition"
+              >
+                Enucompi 2025
               </Link>
             </li>
           </ul>

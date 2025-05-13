@@ -28,6 +28,7 @@ const DoityInscricao = () => {
       <div
         className="p-4 lg:max-w-[1200px] m-auto flex flex-col items-center  border-none "
         ref={ref}
+        id="iframe-inscricao"
       >
         {showIframe ? (
           <>

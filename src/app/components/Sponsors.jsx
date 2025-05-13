@@ -10,8 +10,26 @@ const SponsorsSection = () => {
       image: imgPath + "Servtec_Negativo" + ".webp",
     },
     {
+      name: "Virtex Telecom",
+      image: imgPath + "virtex_negativo" + ".webp",
+    },
+    {
+      name: "Ready Ti",
+      image: imgPath + "READY_NEGATIVO" + ".webp",
+    },
+    {
+      name: "Elite Eventos",
+      image: imgPath + "Logo_elite_Branca" + ".webp",
+    },
+  ];
+  const supporters = [
+    {
       name: "6,28",
       image: imgPath + "Logo_628" + ".webp",
+    },
+    {
+      name: "SEBRAE",
+      image: imgPath + "sebrae_negativo" + ".webp",
     },
     {
       name: "Embarque Turismo",
@@ -56,9 +74,23 @@ const SponsorsSection = () => {
         </h3>
         <h4>O DNT te coloca de frente com as maiores marcas</h4>
         <div className="mt-8">
-          <h5>Patrocinadores & Apoiadores</h5>
+          <h5>Patrocinadores</h5>
           <div className="flex gap-8 items-center justify-center flex-wrap max-w-[1000px] mx-auto">
             {sponsors.map((sponsor, index) => (
+              <Image
+                src={sponsor.image}
+                alt={sponsor.name}
+                key={index}
+                height={150}
+                width={150}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="mt-8">
+          <h5>Apoiadores</h5>
+          <div className="flex gap-8 items-center justify-center flex-wrap max-w-[1000px] mx-auto">
+            {supporters.map((sponsor, index) => (
               <Image
                 src={sponsor.image}
                 alt={sponsor.name}

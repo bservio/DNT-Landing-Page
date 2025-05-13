@@ -49,7 +49,7 @@ const LivroDntPage = () => {
               </Link>
             </li>
             <li className="underline list-disc">
-              <Link href="https://www.somosicev.com/wp-content/uploads/2025/03/Direitos-Neg%C3%B3cios-e-Tecnologia-Anais-do-III-Congresso-do-ICEV-finalizado.pdf">
+              <Link href="https://www.somosicev.com/wp-content/uploads/2025/05/Direitos-Negócios-e-Tecnologia-Anais-do-III-Congresso-do-ICEV-2.pdf">
                 Edição 2024 - III DNT
               </Link>
             </li>

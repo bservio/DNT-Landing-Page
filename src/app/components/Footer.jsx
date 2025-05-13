@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container flex justify-between items-center max-w-7xl mx-auto">
         <div>
           <Image
-            src="/logos/Ativo 3.svg"
+            src="/logos/logo_dnt_2025.png"
             alt="Logo"
             height={43.33}
             width={150}

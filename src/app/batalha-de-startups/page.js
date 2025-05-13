@@ -11,7 +11,7 @@ const BatalhaDeStartUps = () => {
   return ( 
     <div className="max-w-7xl mx-auto p-8">
       <Image 
-        src={"/img/Batalha_startups.webp"}
+        src={"/img/Banner_Batalha_DNT.webp"}
         alt="Batalha de Startups"
         width={1280}
         height={416}
@@ -45,7 +45,7 @@ const BatalhaDeStartUps = () => {
           <Link href="https://cev.bz/batalha-startup" className="bg-green-700 w-full text-center p-6 text-xl rounded-2xl"> Faça sua inscrição </Link>
           <div className="w-full mt-8 text-black">
             <h3 className="font-bold text-xl">Período de inscrição</h3>
-            <p className="mt-2 ">até 10 de maio de 2025</p>
+            <p className="mt-2 ">até 14 de maio de 2025</p>
           </div>
           <div className="w-full mt-8 text-black">
             <h3 className="font-bold text-xl">Premiação</h3>

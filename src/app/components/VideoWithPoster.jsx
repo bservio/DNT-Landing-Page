@@ -19,7 +19,7 @@ export default function VideoWithPoster() {
     <>
       {!videoLoaded && (
         <Image
-          src="/poster.jpg"
+          src="/poster.webp"
           alt="Primeiro frame do video"
           fill
           className={`object-cover w-full h-full -z-50 ${
