@@ -110,7 +110,7 @@ const secondDayWorkshops = [
   },
   {
     id: 2,
-    title: "Palestra - Enucompi",
+    title: "Palestra - Aplicações de Aprendizagem de Máquina na Área de Saúde.",
     speakers: [
       {
         name: "Vinicius Machado",
@@ -320,7 +320,7 @@ const thirdDayMainStage = [
   },
   {
     id: 2,
-    title: "Batalha de Startups 6,28",
+    title: "Batalha de Startups 6,28 - Final",
     date: "30/05/2025",
     start: "17:30",
     finish:"18:30",
@@ -346,7 +346,7 @@ const thirdDayMainStage = [
 const thirdDayWorkshops = [
   {
     id: 1,
-    title: "Palestra - Enucompi",
+    title: "Palestra - Oportunidades Geradas pelas Novas Tecnologias",
     speakers: [
       {
         name: "Gildário Lima",
@@ -491,16 +491,7 @@ const thirdDayWorkshops = [
     enucompi: false,
     type: "Oficina"
   },
-  {
-    id: 8,
-    title: "JOB FAIR",
-    eventImg: "/img/Job_fair_blog.webp",
-    date: "30/05/2025",
-    start: "17:30",
-    finish:"20:00",
-    location: "Sala 5",
-    enucompi: false,
-  },
+
   {
     id: 9,
     title: "Escrita jurídica e IA",

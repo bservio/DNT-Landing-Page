@@ -63,6 +63,10 @@ const SponsorsSection = () => {
       name: "Meu doce gourmet",
       image: imgPath + "meu_doce_negatv" + ".webp",
     },
+    {
+      name: "Hora do Recreio",
+      image: imgPath + "Hora_do_recreio" + ".webp",
+    },
   ];
   return (
     <div className="bg-[#602A5E]">
