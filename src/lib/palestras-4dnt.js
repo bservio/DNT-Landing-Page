@@ -16,6 +16,26 @@ const talkAbertura = {
 const firstDay = [
   {
     id: 1,
+    title: "Premiação - DESTAQUES 2024 (ALUNO, PROFESSOR E EMPRESA AMIGA)",
+    
+    date: "28/05/2025",
+    start: "19:00",
+    finish:"19:30",
+    location: "Espaço CEV",
+    
+  },
+  {
+    id: 1,
+    title: "LANÇAMENTO DO LIVRO IV DNT",
+    
+    date: "28/05/2025",
+    start: "19:30",
+    finish:"19:35",
+    location: "Espaço CEV",
+    
+  },
+  {
+    id: 1,
     title: "Talk de Abertura",
     speakers: [{
       name: "Samuel Nascimento",
@@ -23,7 +43,7 @@ const firstDay = [
       image:"/img/palestrantes/4dnt/samuel-nascimento-secretario-adm-piaui.webp"
     }],
     date: "28/05/2025",
-    start: "19:45",
+    start: "19:35",
     finish:"20:00",
     location: "Espaço CEV",
     
@@ -37,8 +57,8 @@ const firstDay = [
       image:"/img/palestrantes/4dnt/Miriane_Ferreira.webp"
     }],
     date: "28/05/2025",
-    start: "20:00",
-    finish:"21:00",
+    start: "20:20",
+    finish:"21:10",
     location: "Espaço CEV",
     
   },
@@ -63,10 +83,10 @@ const secondDayMainStage = [
     id: 2,
     title: "Batalha de Startups 6,28",
     date: "29/05/2025",
-    start: "17:30",
-    finish:"18:30",
+    start: "17:00",
+    finish:"18:00",
     location: "Espaço CEV",
-    eventImg: "/img/Batalha_Startups.webp"
+    eventImg: "/img/Batalha_startups.webp"
   },
   {
     id: 3,
@@ -125,6 +145,56 @@ const secondDayWorkshops = [
     location: "Sala 10",
     enucompi: true,
     type: "Palestra"
+  },
+  {
+    id: 2,
+    title: "Seção Técnica I - Apresentação dos artigos selecionados.",
+    
+    date: "29/05/2025",
+    start: "14:15",
+    finish:"15:30",
+    location: "Sala 1",
+    enucompi: true,
+  },
+  {
+    id: 2,
+    title: "Seção Técnica II - Apresentação dos artigos selecionados.",
+    
+    date: "29/05/2025",
+    start: "14:15",
+    finish:"15:30",
+    location: "Sala 2",
+    enucompi: true,
+  },
+  {
+    id: 2,
+    title: "Seção Técnica III - Apresentação dos artigos selecionados.",
+    
+    date: "29/05/2025",
+    start: "14:15",
+    finish:"15:30",
+    location: "Sala 4",
+    enucompi: true,
+  },
+  {
+    id: 2,
+    title: "Seção Técnica IV - Apresentação dos artigos selecionados.",
+    
+    date: "29/05/2025",
+    start: "14:15",
+    finish:"15:30",
+    location: "Sala 5",
+    enucompi: true,
+  },
+  {
+    id: 2,
+    title: "Seção Técnica V - Apresentação dos artigos selecionados.",
+    
+    date: "29/05/2025",
+    start: "14:15",
+    finish:"15:30",
+    location: "Sala 6",
+    enucompi: true,
   },
   {
     id: 2,
@@ -325,7 +395,7 @@ const thirdDayMainStage = [
     start: "17:30",
     finish:"18:30",
     location: "Espaço CEV",
-    eventImg: "/img/Batalha_Startups.webp"
+    eventImg: "/img/Batalha_startups.webp"
   },
   {
     id: 3,
@@ -408,7 +478,7 @@ const thirdDayWorkshops = [
         
       },
       {
-        name: "Francusnilto Santos",
+        name: "Fancisnilto Santos",
         desc: "IFPI",
         
       },

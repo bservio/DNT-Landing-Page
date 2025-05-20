@@ -77,6 +77,9 @@ const ProgramacaoDNT = () => {
             <p className="font-bold text-neutral-800 uppercase">16:00 - Abertura: Credenciamento</p>
           </div>
           <p className="mt-4">Espaço CEV</p>
+           <div className="w-full bg-slate-100 p-4 rounded-2xl shadow-md">
+            <p className="font-bold text-neutral-800 uppercase">18:00 - Início do Evento</p>
+          </div>
           <div className="w-full bg-slate-900 p-4 rounded-2xl shadow-md mt-4 flex flex-col-reverse lg:flex-row lg:gap-16 gap-8 items-start">
             <div className="">
               <span className="flex items-center gap-1 text-sm"><MapPin size={14}/> Espaço CEV</span>
@@ -86,11 +89,11 @@ const ProgramacaoDNT = () => {
               </div>
               <div className="flex items-center gap-1 text-sm mt-1">
                 <p>Início:</p>
-                <span className="font-semibold">19:00</span>
+                <span className="font-semibold">18:30</span>
               </div>
               <div className="flex items-center gap-1 text-sm mt-1">
                 <p>Término:</p>
-                <span className="font-semibold">19:45</span>
+                <span className="font-semibold">19:00</span>
               </div>
 
             </div>

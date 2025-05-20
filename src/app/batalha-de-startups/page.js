@@ -28,9 +28,17 @@ const BatalhaDeStartUps = () => {
             É a sua chance de mostrar soluções inovadoras que podem transformar o mercado jurídico, corporativo ou tecnológico — e ainda levar até R$ 10 mil no bolso + mentoria com feras do mercado, pra impulsionar de vez sua ideia!
           </p>
           <div className="mt-4">
+            <h2 className="text-xl font-semibold">Resultado Etapa 1</h2>
+          <p className="font-bold">Confira o resultado da primeira etapa da Batalha de Startups 6,28 </p>
+          <p className="mt-2">As oito primeiras classificadas serão convocadas para a Etapa 2 (demo presencial / banca aliada a investidores). As demais receberão feedback individual destacando pontos fortes e recomendações de melhoria. Parabéns às oito startups classificadas! Conforme o cronograma do IV Congresso DNT – Direito, Negócios & Tecnologia, a Etapa 2 acontecerá em formato de batalha de pitches nos dias 29 e 30 de maio de 2025, no auditório principal do evento. </p>
+          <Link href="/pdf/Resultado_Batalha_de_Startups.pdf">
+              <p className="mt-2 text-blue-500 font-bold underline">Acesse o resultado da Etapa 1</p>
+            </Link>
+          </div>
+          <div className="mt-4">
             <h2 className="text-xl font-semibold">Inscrição</h2>
           <p>Para participar da Batalha de Startups, será necessário entrar no formulário <Link className="text-blue-500" href={"https://cev.bz/batalha-startup"}>https://cev.bz/batalha-startup</Link> - Preencher e enviar o formulário. </p>
-          <p className="mt-2">As inscrições deverão ser realizadas até o <strong>dia 10 de maio de 2025.</strong> As Startups proponentes deverão preencher o formulário de inscrição e enviar os seguintes documentos para concluir o processo de inscrição.</p>
+          <p className="mt-2">As inscrições deverão ser realizadas até o <strong>dia 14S de maio de 2025.</strong> As Startups proponentes deverão preencher o formulário de inscrição e enviar os seguintes documentos para concluir o processo de inscrição.</p>
           </div>
           <div className="mt-4">
             <h2 className="text-xl font-semibold">Premiação</h2>
@@ -42,7 +50,19 @@ const BatalhaDeStartUps = () => {
           </div>
         </div>
         <div className="max-w-[500px] w-full rounded-lg bg-neutral-50 flex flex-col items-center p-10">
-          <Link href="https://cev.bz/batalha-startup" className="bg-green-700 w-full text-center p-6 text-xl rounded-2xl"> Faça sua inscrição </Link>
+          
+          <Link 
+            href="https://cev.bz/batalha-startup" 
+            className="bg-red-400 w-full text-center p-6 text-xl rounded-2xl  pointer-events-none" 
+            aria-disabled={true} 
+            tabIndex={-1}
+          > Incrições encerradas </Link>
+          <div className="w-full mt-8 text-black">
+            <h3 className="font-bold text-xl">Resultado Etapa 1</h3>
+            <Link href="/pdf/Resultado_Batalha_de_Startups.pdf">
+              <p className="mt-2 text-blue-900 font-bold underline">Acesse o resultado da Etapa 1</p>
+            </Link>
+          </div>
           <div className="w-full mt-8 text-black">
             <h3 className="font-bold text-xl">Período de inscrição</h3>
             <p className="mt-2 ">até 14 de maio de 2025</p>
